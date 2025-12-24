@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SentencePlayer MCP Server - Transform your Mac into a powerful Model Context Protocol server with advanced text-to-speech capabilities">
+    <meta name="keywords" content="MCP, server, text to speech, TTS, AI, assistant, voice, accessibility, macOS">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SentencePlayer MCP Server">
+    <meta property="og:description" content="Model Context Protocol server with text-to-speech integration for macOS">
+    <meta property="og:image" content="images/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="SentencePlayer MCP Server">
+    <meta property="twitter:description" content="Model Context Protocol server with text-to-speech integration for macOS">
+    
+    <title>SentencePlayer MCP Server - TTS & MCP Integration for macOS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/icon.png" alt="SentencePlayer MCP" class="nav-logo">
+                <span>SentencePlayer MCP</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#download" class="btn-primary">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Mac into an<br>MCP-Powered Voice Server</h1>
+                <p class="hero-subtitle">
+                    Connect AI assistants to your Mac's powerful text-to-speech engine 
+                    through the Model Context Protocol
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                        </svg>
+                        Download for macOS
+                    </a>
+                    <a href="https://github.com/YOUR_USERNAME/SentencePlayerMCP" class="btn btn-secondary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        View on GitHub
+                    </a>
+                </div>
+                <p class="hero-requirements">Requires macOS 14.0 or later</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/screenshots/main.png" alt="SentencePlayer MCP Server Interface" class="screenshot-main">
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need for AI-powered voice integration</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>Model Context Protocol</h3>
+                    <p>Full MCP server implementation with SSE support for real-time communication with AI applications</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🗣️</div>
+                    <h3>Advanced Text-to-Speech</h3>
+                    <p>Leverage macOS's powerful speech synthesis with multiple voices and natural pronunciation</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Multi-Client Support</h3>
+                    <p>Handle multiple AI assistants simultaneously with unique session tracking</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privacy-Focused</h3>
+                    <p>All processing happens locally on your Mac - no cloud services, complete privacy</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Easy Integration</h3>
+                    <p>Simple HTTP/SSE interface compatible with Cherry Studio, Claude Desktop, and more</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🧪</div>
+                    <h3>Built-in Testing</h3>
+                    <p>Test TTS functionality and server status without external clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Get started in minutes</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Launch the Server</h3>
+                        <p>Open SentencePlayer MCP and click "Start Server" to begin listening on port 9090</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Configure Your Client</h3>
+                        <p>Add the SSE endpoint to your MCP client: <code>http://127.0.0.1:9090/sse</code></p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Speaking!</h3>
+                        <p>Your AI assistant can now use text-to-speech tools to speak responses aloud</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MCP Tools -->
+    <section class="mcp-tools">
+        <div class="container">
+            <h2 class="section-title">Available MCP Tools</h2>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h4>play_sentence</h4>
+                    <p>Speak any text with configurable voices and languages</p>
+                    <pre><code>{
+  "text": "Hello, world!",
+  "voice": "Alex"
+}</code></pre>
+                </div>
+                
+                <div class="tool-card">
+                    <h4>list_voices</h4>
+                    <p>Discover all available system voices and their languages</p>
+                    <pre><code>{
+  "filter": "en_US"
+}</code></pre>
+                </div>
+                
+                <div class="tool-card">
+                    <h4>stop_speech</h4>
+                    <p>Interrupt current playback immediately</p>
+                    <pre><code>{}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title">See It In Action</h2>
+            
+            <div class="screenshots-grid">
+                <div class="screenshot-item">
+                    <img src="images/screenshots/main.png" alt="Main Interface">
+                    <h4>Simple & Powerful</h4>
+                    <p>Start/stop server with one click</p>
+                </div>
+                
+                <div class="screenshot-item">
+                    <img src="images/screenshots/test.png" alt="Test Interface">
+                    <h4>Built-in Testing</h4>
+                    <p>Verify TTS functionality directly</p>
+                </div>
+                
+                <div class="screenshot-item">
+                    <img src="images/screenshots/logs.png" alt="Logs">
+                    <h4>Session Tracking</h4>
+                    <p>Monitor all connections in real-time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Download Now</h2>
+            <p class="section-subtitle">Free and open source</p>
+            
+            <div class="download-options">
+                <div class="download-card">
+                    <h3>Mac App Store</h3>
+                    <p>Get the latest version with automatic updates</p>
+                    <a href="#" class="btn btn-primary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                        </svg>
+                        Download on the App Store
+                    </a>
+                </div>
+                
+                <div class="download-card">
+                    <h3>GitHub Release</h3>
+                    <p>Direct download for advanced users</p>
+                    <a href="https://github.com/YOUR_USERNAME/SentencePlayerMCP/releases" class="btn btn-secondary btn-large">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                        </svg>
+                        Download from GitHub
+                    </a>
+                </div>
+            </div>
+            
+            <p class="download-note">Version 1.0 • macOS 14.0+ • Free & Open Source</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SentencePlayer MCP</h4>
+                    <p>Model Context Protocol server with text-to-speech integration for macOS</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/YOUR_USERNAME/SentencePlayerMCP">GitHub</a></li>
+                        <li><a href="https://github.com/YOUR_USERNAME/SentencePlayerMCP/issues">Report Issues</a></li>
+                        <li><a href="https://github.com/YOUR_USERNAME/SentencePlayerMCP/blob/main/README.md">Documentation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://modelcontextprotocol.io">MCP Documentation</a></li>
+                        <li><a href="https://github.com/modelcontextprotocol">MCP on GitHub</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SentencePlayer MCP. Released under the MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
