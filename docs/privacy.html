@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SentencePlayer MCP Server</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .privacy-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 20px 60px;
+        }
+        
+        .privacy-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .privacy-header h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .privacy-header p {
+            font-size: 18px;
+            color: var(--text-light);
+        }
+        
+        .privacy-content {
+            background: var(--bg-white);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+        
+        .privacy-content h2 {
+            font-size: 32px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text-dark);
+        }
+        
+        .privacy-content h2:first-child {
+            margin-top: 0;
+        }
+        
+        .privacy-content h3 {
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            color: var(--text-dark);
+        }
+        
+        .privacy-content p {
+            margin-bottom: 16px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+        
+        .privacy-content ul {
+            margin-bottom: 16px;
+            padding-left: 30px;
+        }
+        
+        .privacy-content li {
+            margin-bottom: 8px;
+            line-height: 1.8;
+        }
+        
+        .privacy-content strong {
+            color: var(--primary-color);
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/icon.png" alt="SentencePlayer MCP" class="nav-logo">
+                <span>SentencePlayer MCP</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#download">Download</a></li>
+                <li><a href="privacy.html" class="active">Privacy</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Privacy Policy Content -->
+    <div class="privacy-container">
+        <div class="privacy-header">
+            <h1>Privacy Policy</h1>
+            <p>Your privacy is important to us</p>
+        </div>
+        
+        <div class="privacy-content">
+            <h2>Introduction</h2>
+            <p>
+                SentencePlayer MCP Server ("we", "our", or "the App") is committed to protecting your privacy. 
+                This Privacy Policy explains how we handle your information when you use our application.
+            </p>
+
+            <h2>Information We Collect</h2>
+            <p>
+                <strong>We do not collect any personal information.</strong> SentencePlayer MCP Server operates 
+                entirely on your local device and does not transmit any data to external servers.
+            </p>
+
+            <h3>Data Processed Locally</h3>
+            <p>The following information is processed locally on your Mac and never leaves your device:</p>
+            <ul>
+                <li><strong>Text Input:</strong> Text you send to the text-to-speech engine</li>
+                <li><strong>Voice Settings:</strong> Your selected voices and preferences</li>
+                <li><strong>Server Logs:</strong> Connection logs stored locally for debugging purposes</li>
+                <li><strong>Session Information:</strong> Temporary session IDs for managing multiple client connections</li>
+            </ul>
+
+            <h2>How We Use Information</h2>
+            <p>All data processing happens entirely on your local machine for the following purposes:</p>
+            <ul>
+                <li>Providing text-to-speech functionality using macOS built-in speech synthesis</li>
+                <li>Managing connections between MCP clients and the server</li>
+                <li>Displaying server status and connection information</li>
+                <li>Debugging and troubleshooting through local logs</li>
+            </ul>
+
+            <h2>Data Storage</h2>
+            <p>
+                <strong>All data is stored locally on your Mac.</strong> The App stores configuration 
+                settings and preferences using standard macOS mechanisms:
+            </p>
+            <ul>
+                <li>User preferences (voice settings, server port, etc.)</li>
+                <li>Optional debug logs (can be disabled)</li>
+                <li>Session information (temporary, cleared on restart)</li>
+            </ul>
+            <p>
+                You can delete all app data at any time by removing the application from your Mac.
+            </p>
+
+            <h2>Network Activity</h2>
+            <p>
+                SentencePlayer MCP Server creates a local HTTP/SSE server that listens on 
+                <strong>localhost (127.0.0.1)</strong> by default. This means:
+            </p>
+            <ul>
+                <li>The server is only accessible from your Mac</li>
+                <li>No external network connections are made</li>
+                <li>No data is transmitted over the internet</li>
+                <li>Other devices on your network cannot access the server (unless you explicitly configure it)</li>
+            </ul>
+
+            <h2>Third-Party Services</h2>
+            <p>
+                <strong>We do not use any third-party services, analytics, or tracking tools.</strong> 
+                The App does not integrate with any external services except:
+            </p>
+            <ul>
+                <li><strong>macOS Speech Synthesis:</strong> Built-in system service (handled by macOS, subject to Apple's privacy policy)</li>
+            </ul>
+
+            <h2>Data Sharing</h2>
+            <p>
+                <strong>We do not share any data with third parties.</strong> Since all processing 
+                happens locally and no data is collected, there is nothing to share.
+            </p>
+
+            <h2>Children's Privacy</h2>
+            <p>
+                Our App does not collect any personal information from anyone, including children under 13. 
+                The App is safe for users of all ages.
+            </p>
+
+            <h2>Your Rights</h2>
+            <p>Since we don't collect your personal information, you have complete control over all data:</p>
+            <ul>
+                <li><strong>Access:</strong> All data is stored locally and accessible through macOS Finder</li>
+                <li><strong>Deletion:</strong> Simply delete the app to remove all associated data</li>
+                <li><strong>Control:</strong> You can disable logging and other features at any time</li>
+            </ul>
+
+            <h2>Security</h2>
+            <p>
+                The App follows macOS security best practices:
+            </p>
+            <ul>
+                <li>Sandboxed operation (if distributed through Mac App Store)</li>
+                <li>Local-only network access by default</li>
+                <li>No external data transmission</li>
+                <li>Standard macOS file permissions for local storage</li>
+            </ul>
+
+            <h2>Open Source</h2>
+            <p>
+                SentencePlayer MCP Server is open source. You can review our code at 
+                <a href="https://github.com/YOUR_USERNAME/SentencePlayerMCP" target="_blank">
+                    GitHub
+                </a> to verify our privacy practices.
+            </p>
+
+            <h2>Changes to This Policy</h2>
+            <p>
+                We may update this Privacy Policy from time to time. We will notify you of any changes 
+                by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+            </p>
+
+            <h2>Contact Us</h2>
+            <p>
+                If you have any questions about this Privacy Policy, please contact us:
+            </p>
+            <ul>
+                <li>Via GitHub Issues: <a href="https://github.com/aadebuger/SentencePlayerMCP/issues" target="_blank">Submit an Issue</a></li>
+                <li>Via Email: zhvxxh@gmail.com</li>
+            </ul>
+
+            <p class="last-updated">
+                <strong>Last Updated:</strong> December 25, 2024
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SentencePlayer MCP</h4>
+                    <p>Model Context Protocol server with text-to-speech integration for macOS</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://github.com/aadebuger/SentencePlayerMCP">GitHub</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://modelcontextprotocol.io">MCP Documentation</a></li>
+                        <li><a href="https://github.com/modelcontextprotocol">MCP on GitHub</a></li>
+                        <li><a href="https://github.com/aadebuger/SentencePlayerMCP/issues">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SentencePlayer MCP. Released under the MIT License.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
